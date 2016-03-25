@@ -27,7 +27,7 @@ gulp.task('scripts', function() {
         .pipe(uglify())
         .pipe(rename({suffix: ".min"}))
         .pipe(gulp.dest('./scripts/min'))
-        .pipe(notify("Gulp css Done!"));
+        .pipe(notify("Gulp js Done!"));
 });
 
     //watch
